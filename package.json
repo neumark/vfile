@@ -34,20 +34,6 @@
     "type": "opencollective",
     "url": "https://opencollective.com/unified"
   },
-  "imports": {
-    "#minpath": {
-      "node": "./lib/minpath.js",
-      "default": "./lib/minpath.browser.js"
-    },
-    "#minproc": {
-      "node": "./lib/minproc.js",
-      "default": "./lib/minproc.browser.js"
-    },
-    "#minurl": {
-      "node": "./lib/minurl.js",
-      "default": "./lib/minurl.browser.js"
-    }
-  },
   "keywords": [
     "error",
     "file",
@@ -80,7 +66,7 @@
       ]
     ]
   },
-  "repository": "vfile/vfile",
+  "repository": "neumark/vfile",
   "scripts": {
     "prepack": "npm run build && npm run format",
     "build": "tsc --build --clean && tsc --build && type-coverage",

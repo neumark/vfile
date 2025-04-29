@@ -9,7 +9,7 @@ import process from 'node:process'
 import test from 'node:test'
 import {fileURLToPath} from 'node:url'
 import {VFile} from 'vfile'
-import {minpath} from './lib/minpath.browser.js'
+import {minpath} from './lib/minpathbrowser.js'
 
 /* eslint-disable no-undef */
 /** @type {Error} */
